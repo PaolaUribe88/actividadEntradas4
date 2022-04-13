@@ -81,13 +81,13 @@ public class MainConsola {
 	}
 	private static int menuOpciones() {
 		System.out.println("\nMENU TEATRO PUNTO TICKET \n****************************");
-        System.out.println("[1.] BOLETOS DISPONIBLES ");
-        System.out.println("[2.] COMPRAR BOLETOS ");
-        System.out.println("[3.] BOLETOS VENDIDOS ");
-        System.out.println("[4.] VENTAS TOTALES RECAUDADAS");
-        System.out.println("[5.] SALIR ");
-        System.out.println("==================================\n");
-        System.out.println("[Seleccione su opción]\n");
+       		System.out.println("[1.] BOLETOS DISPONIBLES ");
+        	System.out.println("[2.] COMPRAR BOLETOS ");
+        	System.out.println("[3.] BOLETOS VENDIDOS ");
+        	System.out.println("[4.] VENTAS TOTALES RECAUDADAS");
+       		System.out.println("[5.] SALIR ");
+        	System.out.println("==================================\n");
+        	System.out.println("[Seleccione su opción]\n");
         
         int opcionSeleccionada = scanner.nextInt();
 		return opcionSeleccionada;
