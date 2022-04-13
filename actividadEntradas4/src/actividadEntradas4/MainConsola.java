@@ -48,7 +48,7 @@ public class MainConsola {
 		}
 
 	
-	private static int menu() {
+	private static void menu() {
 		int opcionSeleccionada;		
 		
 		do {
@@ -76,8 +76,23 @@ public class MainConsola {
         
         } 
 		}while(opcionSeleccionada!= OPCION_MENU_SALIR);
+		
+		
+	}
+	private static int menuOpciones() {
+		System.out.println("\nMENU TEATRO PUNTO TICKET \n****************************");
+        System.out.println("[1.] BOLETOS DISPONIBLES ");
+        System.out.println("[2.] COMPRAR BOLETOS ");
+        System.out.println("[3.] BOLETOS VENDIDOS ");
+        System.out.println("[4.] VENTAS TOTALES RECAUDADAS");
+        System.out.println("[5.] SALIR ");
+        System.out.println("==================================\n");
+        System.out.println("[Seleccione su opciÃ³n]\n");
+        
+        int opcionSeleccionada = scanner.nextInt();
 		return opcionSeleccionada;
 		
+	
 	}
 	private static void comprarBoleto() {
 		
@@ -142,24 +157,7 @@ public class MainConsola {
 			
 				
 	     }
-	private static int boletosDisponiblesPalco(int boletosDisponiblesPlatea, int boletosDisponiblesGaleria) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-	private static int menuOpciones() {
-		System.out.println("\nMENU TEATRO PUNTO TICKET \n****************************");
-        System.out.println("[1.] BOLETOS DISPONIBLES ");
-        System.out.println("[2.] COMPRAR BOLETOS ");
-        System.out.println("[3.] BOLETOS VENDIDOS ");
-        System.out.println("[4.] VENTAS TOTALES RECAUDADAS");
-        System.out.println("[5.] SALIR ");
-        System.out.println("==================================\n");
-        System.out.println("[Seleccione su opción]\n");
-        
-        int opcionSeleccionada = scanner.nextInt();
-		return opcionSeleccionada;
-	
-	}
+
 	private static void verVentaRecaudada() {
 	int valorTotal = 0;
 		
